@@ -1249,6 +1249,7 @@ var Sendlater3Util = {
     },
 
     alert_for_enigmail: function() {
+	/*
         if (typeof Enigmail !== 'undefined') {
             if (SL3U.getBoolPref("disabled_for_enigmail"))
                 // Already disabled, no need to alert.
@@ -1260,6 +1261,7 @@ var Sendlater3Util = {
         }
         if (SL3U.getBoolPref("disabled_for_enigmail"))
             SL3U.setBoolPref("disabled_for_enigmail", false);
+	*/
         return false;
     },
 
